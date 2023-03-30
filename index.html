@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="/assets/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Wire frame e-commerce</title>
+  </head>
+  <body>
+    <header>
+      <div class="container mt-lg-2">
+        <div class="row">
+          <div class="col-12 col-md-5 col-lg-2">
+            <img
+              class="w-100 profile-image"
+              src="http://placekitten.com/200/50"
+              alt="Foto de perfil do usuário"
+            />
+          </div>
+          <div class="col-12 col-md-7 col-lg-5">
+            <h5 class="my-2 my-lg-0 mt-lg-2">
+              <small class="text-muted">Welcome Guest!</small>
+            </h5>
+            <form class="d-flex my-2 my-lg-0 mt-lg-4">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-dark d-flex justify-content-center align-items-center gap-2"
+                type="submit"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  ></path>
+                </svg>
+                Search
+              </button>
+            </form>
+          </div>
+
+          <div class="col-12 col-lg-5">
+            <nav class="navbar">
+              <a class="text-decoration-none" href="/signin"> Sign in </a>
+              <div class="text-primary">|</div>
+              <a class="text-decoration-none" href="/register"> Register </a>
+              <div class="text-primary">|</div>
+              <a class="text-decoration-none" href="/my-account">My account</a>
+              <div class="text-primary">|</div>
+              <a class="text-decoration-none" href="/track-order"
+                >Track order</a
+              >
+            </nav>
+            <div class="d-flex justify-content-between mt-lg-1">
+              <p class="text-muted small lh-lg">
+                Cash on Delivery | 30 Day Return
+                <br class="d-sm-none" />
+                24/7 Customer Service <b>1800 00 11 22</b>
+              </p>
+              <div
+                class="position-relative cart bg-dark ms-4 d-flex justify-content-center align-items-center"
+              >
+                <div class="d-flex flex-column align-items-center">
+                  <i class="fas fa-shopping-cart text-white"></i>
+                  <span class="text-white small">My Cart</span>
+                </div>
+                <span class="badge position-absolute cart-count">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- bootstrap bundle -->
+    <script src="/assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
